@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>document.documentElement.classList.remove('no-js')</script>
 <title>Studio Porreca — chinesiologia e rieducazione posturale, Via Don Primo Mazzolari 31, Milano</title>
 <meta name="description" content="Studio Porreca: il dott. Pasquale Porreca, chinesiologo e tecnico posturale del Metodo Raggi® con Pancafit®, in Via Don Primo Mazzolari 31 a Milano (Barona). Riequilibrio posturale, rieducazione respiratoria, della lingua, temporo-mandibolare, della funzione visiva, post-traumatica e funzionale. Su appuntamento: 342 645 7603.">
@@ -18,9 +19,7 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..600&amp;family=Source+Sans+3:ital,wght@0,400..700;1,400..600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
@@ -335,7 +334,7 @@
           <figcaption data-i18n="st.fcap">Lo studio, dalla porta.</figcaption>
         </figure>
         <div class="mappa reveal">
-          <iframe title="Mappa: Studio Porreca, Via Don Primo Mazzolari 31, Milano" data-i18n-title="st.mappa" src="https://maps.google.com/maps?q=Studio%20Porreca%20Chinesiologia%2C%20Via%20Primo%20Mazzolari%2031%2C%2020142%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <div class="mappa-clic" data-mappa-clic style="--mappa-h: 400px"><template><iframe title="Mappa: Studio Porreca, Via Don Primo Mazzolari 31, Milano" data-i18n-title="st.mappa" src="https://maps.google.com/maps?q=Studio%20Porreca%20Chinesiologia%2C%20Via%20Primo%20Mazzolari%2031%2C%2020142%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Studio+Porreca+Via+Primo+Mazzolari+31+20142+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
         </div>
       </div>
     </div>
@@ -351,7 +350,7 @@
     <p class="retro__motto" data-i18n="z.motto">Nulla deve passare inosservato.</p>
     <p class="retro__cosa" data-i18n="z.cosa">Chinesiologia e rieducazione posturale · Metodo Raggi® con Pancafit® · su appuntamento</p>
     <p class="retro__via">Via Don Primo Mazzolari 31, 20142 Milano · <a href="tel:+393426457603">342 645 7603</a> · <a href="mailto:pasqualeporreca@gmail.com">pasqualeporreca@gmail.com</a></p>
-    <p class="retro__cred" data-i18n="z.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · testi dal loro sito, dalle loro pagine social e dalla scheda Google (settembre 2026); recensioni pubbliche su Google; foto dello studio dal loro sito e dalla scheda Google; il simbolo ricalcato dal loro logo.</p>
+    <p class="retro__cred" data-i18n="z.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · testi dal loro sito, dalle loro pagine social e dalla scheda Google (settembre 2026); recensioni pubbliche su Google; foto dello studio dal loro sito e dalla scheda Google; il simbolo ricalcato dal loro logo.</p>
     <a class="retro__su" href="#filo" data-i18n="z.su">Torna in cima ↑</a>
   </div>
 </footer>
@@ -367,5 +366,6 @@
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
